@@ -1,0 +1,11 @@
+- makefile []
+- parsing [] 
+  - file management[ ]
+    - non exist
+    - file type
+    - empty file
+    - can be seperate by one or more line break
+    - Each type of information from an element can be separated by one or more spaces 
+    - Each type of element can be set in any order in the file.
+    - Elements defined by a capital letter can only be declared once in the scene. A, C, L
+  - A
