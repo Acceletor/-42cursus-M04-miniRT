@@ -43,7 +43,6 @@ typedef struct s_cam
 
 typedef struct s_light // at least 1
 {
-    bool is_set;
     t_vec pos;
     double ratio;
     t_vec color;
@@ -89,6 +88,12 @@ typedef struct s_scene
     t_amb amb;
     t_objs *objs;
 } t_scene;
+
+typedef struct s_collector
+{
+    void * adr;
+    struct s_collector *next;
+} t_collector;
 
 
 #endif
